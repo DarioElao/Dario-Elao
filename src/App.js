@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
-
+import Tech from './components/Tech';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
      <Hero />
      <NavBar />
      <About />
+     <Tech />
      <Projects />
      <Contact />
     </div>
