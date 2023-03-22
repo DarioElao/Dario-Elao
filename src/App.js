@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 // import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -8,16 +7,17 @@ import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Tech from './components/Tech';
 
-function App() {
+const App = () => {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
      <Header />
      <Hero />
-     <NavBar />
      <About />
+     <NavBar />
      <Tech />
      <Projects />
      <Contact />
+     <div className='min-h-screen'></div>
     </div>
   );
 }
