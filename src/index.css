@@ -16,7 +16,10 @@ code {
     monospace;
 }
 
+header{
+  background-color: #232323;
 
+}
 /* different style hover */
 /* .btn:hover{
   color: white;
