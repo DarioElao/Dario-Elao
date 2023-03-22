@@ -7,42 +7,42 @@ import Hero from './Hero';
 const NavBar = () => {
 
   return (
- <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
+ <nav className='fixed bottom-4 lg:bottom-8 w-full overflow-hidden z-50'>
     <div className='container mx-auto'>
-        <div className='nav h-[60px] rounded-lg max-w-[460px] mx-auto px-5 flex justify-between items-center text-black'>
+        <div className='nav h-[60px] rounded-lg max-w-[460px] mx-auto px-3 flex justify-between items-center text-black'>
           <Link  to='home' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[30px] h-[30px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
             <SlHome />
           </Link>
           <Link to='about'  
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[30px] h-[30px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
             <SlUser />
           </Link>
           <Link  to='tech' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[30px] h-[30px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
             <SlLayers />
           </Link>
           <Link  to='projects' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[30px] h-[30px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
             <SlPaperClip />
           </Link>
           <Link  to='contact' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[30px] h-[30px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
             <SlPaperPlane />
           </Link>
         </div>
