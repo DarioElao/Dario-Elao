@@ -15,3 +15,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* different style hover */
+/* .btn:hover{
+  color: white;
+  background-color: #232323;
+  height: 100px;
+  transform: scale(1.5);
+} */
+
+.btn:hover,
+.active {
+  color: white;
+  background: #232323
+}
+
+.nav {
+  background-color: #FDCA00
+}
+
+@layer base {
+  body{
+    @apply text-white;
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}
