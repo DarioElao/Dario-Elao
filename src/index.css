@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 code {
@@ -27,6 +28,10 @@ header{
   height: 100px;
   transform: scale(1.5);
 } */
+
+.logo{
+  width: 10%;
+}
 
 .btn:hover,
 .active {
