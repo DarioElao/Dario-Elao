@@ -28,7 +28,7 @@ const Hero = () => {
          
         </motion.div> 
         <motion.p variants={fadeIn('up', 0.5)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>
-             Introduction paragraph
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </motion.p>
           <motion.div variants={fadeIn('up', 0.6)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='bg-[#D9D9D9] hover:bg-[#A6A6A6] text-[#232323] hover:text-[#FDCA00] font-bold py-1 px-4 rounded'>Contact</button>
@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
           </motion.div>
       </div>
-      <motion.div variants={fadeIn('down', 0.5)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mx-auto hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
+      <motion.div variants={fadeIn('up', 0.5)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
         <img src={Image}/>
       </motion.div>
     </div>
