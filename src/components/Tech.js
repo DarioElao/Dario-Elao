@@ -18,7 +18,7 @@ const Tech = () => {
          
 <section className='flex-row mt-10 lg:mt-0'>
 <h3 className='tracking-wides text-lg '>FRONT END</h3>
-<div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center gap-x-[45px] lg:gap-x-[60px] text-[40px] border-b-2 my-9 border-[#fdca00]'>
+<div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center  lg:gap-x-[60px] text-[40px] border-b-2 my-9 border-[#fdca00]'>
 
 <div className='relative group'>
             <a className='text-[#A6A6A6] w-[50px] h-[50px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
@@ -69,7 +69,7 @@ const Tech = () => {
 
 
 <h3 className='mt-10 tracking-widest text-lg'>MERN</h3>
- <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center gap-x-[60px] text-[40px] border-b-2 my-9 border-[#fdca00]'>
+ <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center text-[40px] border-b-2 my-9 border-[#fdca00]'>
  <div className='relative group'>
             <a className='text-[#A6A6A6] w-[50px] h-[50px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://www.mongodb.com/'>
               <SiMongodb/>
@@ -108,7 +108,7 @@ const Tech = () => {
  </div>
 
  <h3 className='mt-10 tracking-widest text-lg'>BACK END</h3>
- <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center gap-x-[45px] lg:gap-x-[60px] text-[40px] border-b-2 my-9 border-[#fdca00]'>
+ <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center text-[40px] border-b-2 my-9 border-[#fdca00]'>
               <div className='relative group'>
                   <a className='text-[#A6A6A6] w-[50px] h-[50px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg' href='#'>
                     <SiExpress />
