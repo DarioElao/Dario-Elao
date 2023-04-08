@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
           </motion.div>
       </div>
-      <motion.div variants={fadeIn('up', 0.5)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
+      <motion.div variants={fadeIn('up', 0.5)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[482px] md:flex'>
         <img src={Image}/>
       </motion.div>
     </div>
