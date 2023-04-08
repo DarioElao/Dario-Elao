@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DarioElao-React-Portfolio/static/css/main.43ebd1d0.css",
-    "main.js": "/DarioElao-React-Portfolio/static/js/main.891bcf0f.js",
+    "main.css": "/DarioElao-React-Portfolio/static/css/main.773f9b4b.css",
+    "main.js": "/DarioElao-React-Portfolio/static/js/main.7e4b9518.js",
     "static/js/787.1ed0c42c.chunk.js": "/DarioElao-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/about.png": "/DarioElao-React-Portfolio/static/media/about.63f97e3142814ebe7a8f.png",
+    "static/media/army.png": "/DarioElao-React-Portfolio/static/media/army.d73e4744732d9fb322bf.png",
     "static/media/Untitled.png": "/DarioElao-React-Portfolio/static/media/Untitled.0bbab0716fb6ed0dd7f9.png",
     "static/media/logo3.png": "/DarioElao-React-Portfolio/static/media/logo3.6c8b86b28eaa0cf85f1f.png",
     "static/media/logo.svg": "/DarioElao-React-Portfolio/static/media/logo.46ce2b4e40b71a23e09420fef3f9b27c.svg",
     "index.html": "/DarioElao-React-Portfolio/index.html",
-    "main.43ebd1d0.css.map": "/DarioElao-React-Portfolio/static/css/main.43ebd1d0.css.map",
-    "main.891bcf0f.js.map": "/DarioElao-React-Portfolio/static/js/main.891bcf0f.js.map",
+    "main.773f9b4b.css.map": "/DarioElao-React-Portfolio/static/css/main.773f9b4b.css.map",
+    "main.7e4b9518.js.map": "/DarioElao-React-Portfolio/static/js/main.7e4b9518.js.map",
     "787.1ed0c42c.chunk.js.map": "/DarioElao-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43ebd1d0.css",
-    "static/js/main.891bcf0f.js"
+    "static/css/main.773f9b4b.css",
+    "static/js/main.7e4b9518.js"
   ]
 }
