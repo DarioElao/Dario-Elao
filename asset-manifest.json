@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DarioElao-React-Portfolio/static/css/main.1413deb6.css",
-    "main.js": "/DarioElao-React-Portfolio/static/js/main.b25af600.js",
+    "main.js": "/DarioElao-React-Portfolio/static/js/main.d4884b31.js",
     "static/js/787.1ed0c42c.chunk.js": "/DarioElao-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/army.png": "/DarioElao-React-Portfolio/static/media/army.d73e4744732d9fb322bf.png",
     "static/media/resume.pdf": "/DarioElao-React-Portfolio/static/media/resume.5c4e3196e233e61048ad.pdf",
@@ -12,11 +12,11 @@
     "static/media/logo.svg": "/DarioElao-React-Portfolio/static/media/logo.46ce2b4e40b71a23e09420fef3f9b27c.svg",
     "index.html": "/DarioElao-React-Portfolio/index.html",
     "main.1413deb6.css.map": "/DarioElao-React-Portfolio/static/css/main.1413deb6.css.map",
-    "main.b25af600.js.map": "/DarioElao-React-Portfolio/static/js/main.b25af600.js.map",
+    "main.d4884b31.js.map": "/DarioElao-React-Portfolio/static/js/main.d4884b31.js.map",
     "787.1ed0c42c.chunk.js.map": "/DarioElao-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1413deb6.css",
-    "static/js/main.b25af600.js"
+    "static/js/main.d4884b31.js"
   ]
 }
