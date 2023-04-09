@@ -1,5 +1,5 @@
 import React from 'react';
-import {SiJavascript, SiCss3, SiReact, SiExpress, SiNodedotjs, SiGraphql, SiSequelize, SiMongodb,SiWebpack,SiAngularjs} from 'react-icons/si';
+import {SiJavascript, SiReact, SiExpress, SiNodedotjs, SiGraphql, SiSequelize, SiMongodb,SiWebpack,SiAngularjs} from 'react-icons/si';
 import {ImHtmlFive2,ImCss3} from 'react-icons/im'
 import {motion} from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -10,8 +10,8 @@ const Tech = () => {
     return (
     <div className='section h-screen' id='tech'>
       <div  className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row justify-around lg:items-center'>
-            <div className=''>
+        <div className='flex flex-col lg:flex-row justify-around lg:items-center text-center lg:text-left'>
+            <div>
             <h2 className='text-[32px] mb-6 uppercase -mt-[100px] lg:mt-0'>What I know</h2>
             <h3 className='font-semibold text-[26px] mb-4 leading-[30px]'>Technologies</h3>
             </div>

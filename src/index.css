@@ -33,9 +33,10 @@ header{
   width: 10%;
 }
 
-.btn:hover,
-.active {
-  color: white;
+
+
+.active{
+  color: #fdca00;
   background: #232323;
 }
 

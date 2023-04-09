@@ -14,13 +14,13 @@ const Projects = () => {
     return (
     <section className='section min-h-[85vh] lg:min-h-[78vh] flex items-center' id='projects'>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row gap-x-10'>
+        <div className='flex flex-col lg:flex-row gap-x-10 text-center lg:text-left'>
            <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
               <div>
                 <h2 className='leading-tight text-3xl mb-6 '>My Lastest <br />
                 Projects
                 </h2>
-                <p className='max-w-sm mb-16 leading-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <p className='lg:max-w-sm mb-16 leading-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 <button className='bg-[#D9D9D9] hover:bg-[#A6A6A6] text-[#232323] hover:text-[#FDCA00] font-bold py-1 px-4 rounded'>View all projects </button>
               </div>
               {/* image */}

@@ -14,35 +14,36 @@ const NavBar = () => {
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          offset={-200}
+          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlHome />
           </Link>
           <Link to='about'  
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlUser />
           </Link>
           <Link  to='tech' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlLayers />
           </Link>
           <Link  to='projects' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlPaperClip />
           </Link>
           <Link  to='contact' 
           activeClass='active'
           smooth={true}
           spy={true}
-          className='btn cursor-pointer w-[35px] h-[35px]  flex items-center justify-center hover:scale-150 duration-200 rounded-lg'>
+          className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlPaperPlane />
           </Link>
         </div>
