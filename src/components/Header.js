@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 const Header = () => {
   return (
     <header>
-      <div className='container mx-auto my-3 w-full overflow-hidden z-50'>
+      <div className='container mx-auto w-full overflow-hidden z-50 pt-4' id='header'>
         <div className='flex flex-row justify-between items-center'>
           <div className='w-[60px] lg:w-[75px]'>
             <img src={Logo} alt='logo' />

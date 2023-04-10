@@ -5,7 +5,7 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
     return (
-    <section className='py-16 lg:section h-screen' id='contact'>
+    <section className='section' id='contact'>
       <div  className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* text */}
@@ -18,7 +18,7 @@ const Contact = () => {
             </div>
           </div>
           {/* form */}
-          <form action='https://getform.io/f/fdfd1b7e-c126-4a3c-a6d7-efb5fd2c7cf5' method="POST" className='flex-1 border rounded-2xl flex flex-col pag-y-6 pb-12 p-6 items-start'>
+          <form action='https://getform.io/f/fdfd1b7e-c126-4a3c-a6d7-efb5fd2c7cf5' method="POST" className='flex-1 border rounded-2xl flex flex-col pag-y-6  p-6 items-start'>
             <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-yellow-500 transition-all' type="text" name="name" placeholder='Your name'/>
             <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-yellow-500 transition-all' type="email" name="email" placeholder='Your email'/>
             <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-yellow-500 transition-all resize-none mb-12' type="text" name="message" placeholder='Your message'></textarea>

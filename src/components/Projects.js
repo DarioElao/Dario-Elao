@@ -12,7 +12,7 @@ import Img3 from '../assets/logo3.png'
 
 const Projects = () => {
     return (
-    <section className='section min-h-[85vh] lg:min-h-[78vh] flex items-center' id='projects'>
+    <section className='section' id='projects'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-x-10 text-center lg:text-left'>
            <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>

@@ -3,19 +3,30 @@ import CountUp from 'react-countup';
 import {useInView} from 'react-intersection-observer'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+import Image from '../assets/army.png';
 
 const About = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-  });
   return (
-  <div className='section h-screen flex items-center' id='about' ref={ref}>
+  <section className='section'  id='about'>
     <div className='container mx-auto'>
-      <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen text-left'>
-        <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3 }} className='flex-1 bg-contain bg-about bg-no-repeat h-[500px] bg-top w-[150px] mx-auto mt-10 lg:mt-0'></motion.div>
-        <motion.div variants={fadeIn('left', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3 }} className='flex-1'>
+      <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 text-left transform translate-y-[-25px] '>
+      <motion.div variants={fadeIn('right', 0.3)}
+       initial='hidden' 
+       whileInView={'show'} 
+       viewport={{once: false, amount: 0.3 }} 
+       className='flex-1 h-[700px] bg-top w-[150px] mx-auto '>
+        <img src={Image} className="w-full lg:max-w-[482px]" />
+       </motion.div>
+
+        <motion.div
+        variants={fadeIn('left', 0.5)} 
+        initial='hidden' 
+        whileInView={'show'} 
+        viewport={{once: false, amount: 0.3 }} 
+        className='flex-1'>
+      
          <div>
-          <h2 className='text-[20px] mb-6 uppercase -mt-40 lg:mt-0'><span className='mr-2 lg:mr-4'>01.</span> about me</h2>
+          <h2 className='text-[20px] mb-6 uppercase'><span className='mr-2 lg:mr-4'>01.</span> about me</h2>
           <div className='text-left mb-4'>
           <p className='mb-4'>I've been an Army Reserve member since 2019, learning skills like marksmanship, physical fitness, and leadership development. <br/></p>
 
@@ -30,7 +41,7 @@ const About = () => {
         </motion.div>
       </div>
     </div>
-  </div>
+  </section>
   );
 };
 

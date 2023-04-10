@@ -9,10 +9,11 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
     return (
-    <section className='section min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='section ' id='home'>
     <div className='container mx-auto'>
-      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 lg:-mt-[200px]'>
-      <div className='flex-1 text-center lg:text-left'>
+    <div className='flex justify-center items-center flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 transform translate-y-[-25px] '>
+      <div className='flex-1 text-center 
+      lg:text-left'>
         <motion.p variants={fadeIn('up', 0.2)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }}  className='text-light leading-[2] tracking-wider'>
           Hi, my name is
           </motion.p>
@@ -51,9 +52,9 @@ const Hero = () => {
           </motion.div>
           
       </div>
-      <motion.div variants={fadeIn('up', 0.5)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[482px] md:flex'>
-        <img src={Image}/>
-      </motion.div>
+      <motion.div variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[482px] -mt-12'>
+  <img src={Image} className="w-full lg:max-w-[482px]" />
+</motion.div>
     </div>
     </div>
     </section>

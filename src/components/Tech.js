@@ -8,15 +8,15 @@ import { fadeIn } from '../variants';
 
 const Tech = () => {
     return (
-    <div className='section h-screen' id='tech'>
-      <div  className='container mx-auto'>
+    <section className='section' id='tech'>
+     <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-around lg:items-center text-center lg:text-left'>
             <div>
-            <h2 className='text-[32px] mb-6 uppercase -mt-[100px] lg:mt-0'>What I know</h2>
-            <h3 className='font-semibold text-[26px] mb-4 leading-[30px]'>Technologies</h3>
+            <h2 className='text-[32px] mb-6 uppercase lg:mt-0'>What I know</h2>
+            <h3 className='font-semibold text-[26px] mb-4'>Technologies</h3>
             </div>
          
-<section className='flex-row mt-[100px] lg:mt-0'>
+<section className='flex-row lg:mt-0'>
 
 <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center  lg:gap-x-[60px] text-[40px] '>
 <h3 className='tracking-wides text-lg '>FRONT END</h3>
@@ -163,7 +163,7 @@ const Tech = () => {
 
 </div>
         </div>
-      </div>
+      </section>
   
     );
   };
