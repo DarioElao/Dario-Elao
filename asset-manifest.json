@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DarioElao-React-Portfolio/static/css/main.20d8b667.css",
-    "main.js": "/DarioElao-React-Portfolio/static/js/main.2aa5f683.js",
+    "main.css": "/DarioElao-React-Portfolio/static/css/main.966ddb59.css",
+    "main.js": "/DarioElao-React-Portfolio/static/js/main.9b6bcce0.js",
     "static/js/787.1ed0c42c.chunk.js": "/DarioElao-React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/army.png": "/DarioElao-React-Portfolio/static/media/army.d73e4744732d9fb322bf.png",
     "static/media/resume.pdf": "/DarioElao-React-Portfolio/static/media/resume.5c4e3196e233e61048ad.pdf",
@@ -11,12 +11,12 @@
     "static/media/logo1.png": "/DarioElao-React-Portfolio/static/media/logo1.579dbe0c865ea84ba2aa.png",
     "static/media/logo.svg": "/DarioElao-React-Portfolio/static/media/logo.46ce2b4e40b71a23e09420fef3f9b27c.svg",
     "index.html": "/DarioElao-React-Portfolio/index.html",
-    "main.20d8b667.css.map": "/DarioElao-React-Portfolio/static/css/main.20d8b667.css.map",
-    "main.2aa5f683.js.map": "/DarioElao-React-Portfolio/static/js/main.2aa5f683.js.map",
+    "main.966ddb59.css.map": "/DarioElao-React-Portfolio/static/css/main.966ddb59.css.map",
+    "main.9b6bcce0.js.map": "/DarioElao-React-Portfolio/static/js/main.9b6bcce0.js.map",
     "787.1ed0c42c.chunk.js.map": "/DarioElao-React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d8b667.css",
-    "static/js/main.2aa5f683.js"
+    "static/css/main.966ddb59.css",
+    "static/js/main.9b6bcce0.js"
   ]
 }
