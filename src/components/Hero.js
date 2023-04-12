@@ -28,7 +28,7 @@ const Hero = () => {
             'Developer',
             2000,
           ]}
-          speed={5}
+          speed={10}
           className='text-[#FDCA00]'
           wrapper='span'
           repeat={Infinity}/>

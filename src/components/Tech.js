@@ -1,169 +1,266 @@
 import React from 'react';
-import {SiJavascript, SiReact, SiExpress, SiNodedotjs, SiGraphql, SiSequelize, SiMongodb,SiWebpack,SiAngularjs} from 'react-icons/si';
-import {ImHtmlFive2,ImCss3} from 'react-icons/im'
+
+import {SiJavascript, SiReact, SiExpress, SiNodedotjs, SiGraphql, SiSequelize, SiMongodb,SiWebpack,SiAngularjs, SiCss3} from 'react-icons/si';
+import {ImHtmlFive2} from 'react-icons/im'
+
 import {motion} from 'framer-motion';
 import { fadeIn } from '../variants';
+
+import { TypeAnimation } from 'react-type-animation';
+
 
 
 
 const Tech = () => {
     return (
     <section className='section' id='tech'>
-     <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row justify-around lg:items-center text-center lg:text-left'>
-            <div>
-            <h2 className='text-[32px] mb-6 uppercase lg:mt-0'>What I know</h2>
-            <h3 className='font-semibold text-[26px] mb-4'>Technologies</h3>
-            </div>
+      <div className='container mx-auto'>
+        <div className='flex flex-col lg:flex-row  lg:gap-x-32 transform translate-y-[-50px] '>
+          <div className='flex justify-center items-center gap-y-12 mb-10 lg:mb-0 ' >
+            {/*  text*/}
+        <motion.div
+        variants={fadeIn('right', 0.5)} 
+        initial='hidden' 
+        whileInView={'show'} 
+        viewport={{once: false, amount: 0.3 }} 
+        
+        className='text-[#D9D9D9]'>
+  <div className=' text-[20px] mb-6 tracking-widest leading-normal font-light text-[#FDCA00]'> 0 2 . <span className=' lg:ml-4 tracking-widest leading-normal font-light'>
+  <TypeAnimation sequence={[
+            'T E C H',
+            2000,
+          ]}
+          speed={500}
+          className='text-[#FDCA00]'
+          wrapper='span'
+          repeat={Infinity}/>
+  </span>
+  
+  </div>
+  <p className='lg:max-w-sm text-justify font-light tracking-widest'>
+    I possess expertise in both front-end and back-end technologies, encompassing CSS3, HTML5, MySQL, MongoDB, Express, jQuery, RESTful API, GraphQL, Sequelize, JavaScript, and React.
+  </p>
+</motion.div>
+
+
+          </div>
          
-<section className='flex-row lg:mt-0'>
+         <motion.div 
+         variants={fadeIn('left', 0.5)} 
+         initial='hidden' 
+         whileInView={'show'} 
+         viewport={{once: false, amount: 0.3 }} 
 
-<div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center  lg:gap-x-[60px] text-[40px] '>
-<h3 className='tracking-wides text-lg '>FRONT END</h3>
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
-              <SiJavascript/>
-            </a> 
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  JavaScript
-            </span>     
-</div>
+         className='flex-1'>
+          
+            <div className=' group  relative overflow-hidden border-2 border-[#D9D9D9] rounded-xl mb-6 text-[#D9D9D9]'>
+              {/* overlay */}
+              <div className='group-hover:bg-[#FDCA00] w-full h-full absolute z-40 transition-all duration-300'></div>
+              {/*img */}
+              {/* <img className='group-hover:scale-125 transition-all duration-500 h-32 object-cover w-full'  src={Img1} alt=''/> */}
+              <h2 className='text-center py-16 text-2xl font-extralight tracking-wider ' dangerouslySetInnerHTML={{ __html: '&lt;   F R O N T E N D   /&gt;' }}></h2>
+              {/* pretitle */}
+              <div className='absolute -bottom-full group-hover:bottom-12 transition-all duration-500 z-50 flex justify-center w-full'>
+                        
+              <div className=' flex justify-evenly w-full text-[#232323]'>
 
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://developer.mozilla.org/en-US/docs/Web/HTML'>
-            <ImHtmlFive2/>    
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  HTML
-            </span>
-</div>
 
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://developer.mozilla.org/en-US/docs/Web/CSS'>
-              <ImCss3 />
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  CSS
-            </span>
-</div>
+                          <div>
+                                  <div>
+                                  <span className='text-xs absolute p-1 rounded-md transform -translate-x-3  shadow-lg font-light'>Javascript</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+                                  <SiJavascript className='text-5xl mt-9 '/>
+                                  </a>
+                          </div>
 
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://react.dev/'>
-              <SiReact />
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  React
-            </span>
-</div>            
+                          <div>
+                                  <div>
+                                  <span className='text-xs  absolute p-1 rounded-md  shadow-lg font-light'>React</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://react.dev/'>
+                                  <SiReact className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
 
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://angular.io/'>
-              <SiAngularjs />
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Angular
-            </span>
-</div>
+                          <div>
+                                  <div>
+                                  <span className='text-xs   absolute p-1 rounded-md transform -translate-x-1 shadow-lg font-light'>Angular</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://angular.io/'>
+                                  <SiAngularjs className='text-5xl mt-9' />
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs absolute p-1 rounded-md transform translate-x-1 shadow-lg font-light'>HTML</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>
+                                  <ImHtmlFive2 className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs  absolute p-1 rounded-md transform translate-x-2  shadow-lg font-light'>CSS</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://developer.mozilla.org/en-US/docs/Web/CSS'>
+                                  <SiCss3 className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+
+                      </div>
+
+
+              </div>
+
+            </div>
             
- </div>
+
+            <div className=' group  relative overflow-hidden border-2 border-[#D9D9D9] rounded-xl mb-6 text-[#D9D9D9]'>
+              {/* overlay */}
+              <div className='group-hover:bg-[#FDCA00] w-full h-full absolute z-40 transition-all duration-300'></div>
+              {/*img */}
+              {/* <img className='group-hover:scale-125 transition-all duration-500 h-32 object-cover w-full'  src={Img1} alt=''/> */}
+              <h2 className='text-center py-16 text-2xl font-extralight tracking-wider '> M E R N </h2>
+              {/* pretitle */}
+              <div className='absolute -bottom-full group-hover:bottom-12 transition-all duration-500 z-50 flex justify-center w-full'>
+                        
+              <div className=' flex justify-evenly w-full text-[#232323]'>
+
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs absolute p-1 rounded-md transform -translate-x-3  shadow-lg font-light'>MongoDB</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://www.mongodb.com/'>
+                                  <SiMongodb className='text-5xl mt-9 '/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs absolute p-1 rounded-md transform -translate-x-1 shadow-lg font-light'>Express</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://expressjs.com/'>
+                                  <SiExpress className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs  absolute p-1 rounded-md  shadow-lg font-light'>React</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://react.dev/'>
+                                  <SiReact className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs  absolute p-1 rounded-md transform -translate-x-1 shadow-lg font-light'>Node.js</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://nodejs.org/en'>
+                                  <SiNodedotjs className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
 
 
 
- <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-[100px] my-[50px] flex justify-between items-center text-[40px] border-b-2 border-t-2 my-[30px] border-[#fdca00]'>
-  <h3 className='tracking-widest text-lg'>MERN</h3>
- <div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://www.mongodb.com/'>
-              <SiMongodb/>
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  MongoDB
-            </span>
-</div>
-
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://expressjs.com/'>
-            <SiExpress/>
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Express.js
-            </span>
-</div>
-
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://react.dev/'>
-              <SiReact />
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  React
-            </span>
-</div>
-
-<div className='relative group'>
-            <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg'  href='https://nodejs.org/en'>
-              <SiNodedotjs/>
-            </a>
-            <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Node.js
-            </span>
-</div>
- </div>
+                      </div>
 
 
- <div variants={fadeIn('up', 0.7)}  initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='h-14 px-3 p-10 flex justify-between items-center text-[40px]'>
-   <h3 className=' tracking-widest text-lg'>BACK END</h3>
-              <div className='relative group'>
-                  <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg' href='#'>
-                    <SiExpress />
-                  </a>
-                  <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Express.js
-                  </span>
+              </div>
+
             </div>
 
-            <div className='relative group'>
-                  <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg' href='#'>
-                    <SiWebpack />
-                  </a>
-                  <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Webpack
-                  </span>
+            <div className=' group  relative overflow-hidden border-2 border-[#D9D9D9] rounded-xl mb-6 text-[#D9D9D9]'>
+              {/* overlay */}
+              <div className='group-hover:bg-[#FDCA00] w-full h-full absolute z-40 transition-all duration-300'></div>
+              {/*img */}
+              {/* <img className='group-hover:scale-125 transition-all duration-500 h-32 object-cover w-full'  src={Img1} alt=''/> */}
+              <h2 className='text-center py-16 text-2xl font-extralight tracking-wider ' dangerouslySetInnerHTML={{ __html: '{  B A C K E N D  } ' }}></h2>
+              {/* pretitle */}
+              <div className='absolute -bottom-full group-hover:bottom-12 transition-all duration-500 z-50 flex justify-center w-full'>
+                        
+              <div className=' flex justify-evenly w-full text-[#232323]'>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs absolute p-1 rounded-md transform -translate-x-2 shadow-lg font-light'>Webpack</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://webpack.js.org/'>
+                                  <SiWebpack className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs absolute p-1 rounded-md transform -translate-x-1  shadow-lg font-light'>Express</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://expressjs.com/'>
+                                  <SiExpress className='text-5xl mt-9 '/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs  absolute p-1 rounded-md transform -translate-x-1  shadow-lg font-light'>Node.js</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://nodejs.org/en'>
+                                  <SiNodedotjs className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs  absolute p-1 rounded-md transform -translate-x-1 shadow-lg font-light'>GraphQL</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://graphql.org/'>
+                                  <SiGraphql className='text-5xl mt-9'/>
+                                  </a>
+                          </div>
+
+                          <div>
+                                  <div>
+                                  <span className='text-xs   absolute p-1 rounded-md transform -translate-x-1  shadow-lg font-light'>Sequelize</span>
+                                  </div>
+                                  {/* title */}
+                                  <a href='https://sequelize.org/docs/v6/'>
+                                  <SiSequelize className='text-5xl mt-9' />
+                                  </a>
+                          </div>
+
+
+
+                      </div>
+
+
+              </div>
+
             </div>
 
-            <div className='relative group'>
-                  <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg' href='#'>
-                    <SiNodedotjs />
-                  </a>
-                  <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Node.js
-                  </span>
-            </div>
-
-            <div className='relative group'>
-                  <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg' href='#'>
-                    <SiGraphql />
-                  </a>
-                  <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  GraphQL
-                  </span>
-            </div>
-
-            <div className='relative group'>
-                  <a className='text-[#A6A6A6] lg:w-[50px] w-[25px] flex items-center justify-center hover:scale-150 duration-200 rounded-lg' href='#'>
-                    <SiSequelize />
-                  </a>
-                  <span className='opacity-0 group-hover:opacity-100 absolute bottom-full left-1/2 transform -translate-x-1/2 bg-white text-black text-xs px-2 py-1 mb-3 rounded shadow-lg whitespace-nowrap'>
-                  Sequelize
-                  </span>
-            </div>
- </div>
+         </motion.div>
 
 
-</section>
-
-
-</div>
         </div>
-      </section>
+      </div>
+    </section>
   
     );
   };

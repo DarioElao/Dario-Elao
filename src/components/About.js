@@ -27,7 +27,7 @@ const About = () => {
       
          <div>
           <h2 className='text-[20px] mb-6 uppercase'><span className='mr-2 lg:mr-4'>01.</span> about me</h2>
-          <div className='text-left mb-4'>
+          <div className='text-left mb-4 text'>
           <p className='mb-4'>I've been an Army Reserve member since 2019, learning skills like marksmanship, physical fitness, and leadership development. <br/></p>
 
           <p className='mb-4'>While in the Army, I found my passion for technology and graduated from the full stack coding bootcamp at the University of Central Florida this March. I've also been a self-taught developer for the past year, constantly learning new languages and tools.<br/></p>
