@@ -15,8 +15,8 @@ const Tech = () => {
     return (
     <section className='section' id='tech'>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row  lg:gap-x-32 transform translate-y-[-50px] '>
-          <div className='flex justify-center items-center gap-y-12 mb-10 lg:mb-0 ' >
+        <div className='flex flex-col lg:flex-row  lg:gap-x-32 '>
+          <div className='flex justify-center items-center gap-y-12  lg:mb-0 transform translate-y-[-25px] ' >
             {/*  text*/}
         <motion.div
         variants={fadeIn('right', 0.5)} 
@@ -25,9 +25,10 @@ const Tech = () => {
         viewport={{once: false, amount: 0.3 }} 
         
         className='text-[#D9D9D9]'>
-  <div className=' text-[20px] mb-6 tracking-widest leading-normal font-light text-[#FDCA00]'> 0 2 . <span className=' lg:ml-4 tracking-widest leading-normal font-light'>
+  <div className=' text-[20px] mb-4 tracking-widest leading-normal font-light text-[#FDCA00]'> 0 2 . 
+  <span className=' lg:ml-4 ml-2  tracking-widest leading-normal font-light'>
   <TypeAnimation sequence={[
-            'T E C H',
+            'T E C H ',
             2000,
           ]}
           speed={500}
@@ -37,7 +38,7 @@ const Tech = () => {
   </span>
   
   </div>
-  <p className='lg:max-w-sm text-justify font-light tracking-widest'>
+  <p className='lg:max-w-sm text-justify font-light'>
     I possess expertise in both front-end and back-end technologies, encompassing CSS3, HTML5, MySQL, MongoDB, Express, jQuery, RESTful API, GraphQL, Sequelize, JavaScript, and React.
   </p>
 </motion.div>

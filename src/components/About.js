@@ -4,12 +4,13 @@ import {useInView} from 'react-intersection-observer'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 import Image from '../assets/army.png';
+import { TypeAnimation } from 'react-type-animation';
 
 const About = () => {
   return (
   <section className='section'  id='about'>
     <div className='container mx-auto'>
-      <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 text-left transform translate-y-[-25px] '>
+      <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 text-left transform translate-y-[-50px] '>
       <motion.div variants={fadeIn('right', 0.3)}
        initial='hidden' 
        whileInView={'show'} 
@@ -26,8 +27,18 @@ const About = () => {
         className='flex-1'>
       
          <div>
-          <h2 className='text-[20px] mb-6 uppercase'><span className='mr-2 lg:mr-4'>01.</span> about me</h2>
-          <div className='text-left mb-4 text'>
+          <div className='text-[20px] mb-4 tracking-widest leading-normal font-light text-[#FDCA00]'>0 1 . <span className='lg:ml-4 ml-2 tracking-widest leading-normal font-light'>
+          <TypeAnimation sequence={[
+            'A B O U T ',
+            2000,
+          ]}
+          speed={500}
+          className='text-[#FDCA00]'
+          wrapper='span'
+          repeat={Infinity}/>
+          </span>
+          </div>
+          <div className=' text-justify font-light '>
           <p className='mb-4'>I've been an Army Reserve member since 2019, learning skills like marksmanship, physical fitness, and leadership development. <br/></p>
 
           <p className='mb-4'>While in the Army, I found my passion for technology and graduated from the full stack coding bootcamp at the University of Central Florida this March. I've also been a self-taught developer for the past year, constantly learning new languages and tools.<br/></p>
