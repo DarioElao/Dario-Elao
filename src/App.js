@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Tech from './components/Tech';
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
      <Tech />
      <Projects />
      <Contact />
+     <Footer />
      {/* <div className='h-[4000px]'></div> */}
     </div>
   );

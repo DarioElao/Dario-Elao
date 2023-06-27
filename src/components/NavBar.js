@@ -14,7 +14,7 @@ const NavBar = () => {
           activeClass='active'
           smooth={true}
           spy={true}
-          // offset={-200}
+          
           className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlHome />
           </Link>
@@ -43,6 +43,7 @@ const NavBar = () => {
           activeClass='active'
           smooth={true}
           spy={true}
+          // offset={200}
           className='btn cursor-pointer w-[35px] h-[35px] flex items-center justify-center transition-transform duration-200 transform hover:border-b-2 hover:border-black hover:-translate-y-1 rounded-lg'>
             <SlPaperPlane />
           </Link>

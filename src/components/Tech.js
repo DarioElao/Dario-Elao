@@ -15,8 +15,8 @@ const Tech = () => {
     return (
     <section className='section' id='tech'>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row  lg:gap-x-32 '>
-          <div className='flex justify-center items-center gap-y-12  lg:mb-0 transform translate-y-[-25px] ' >
+        <div className='flex flex-col lg:flex-row  lg:gap-x-32 gap-y-12'>
+          <div className='flex justify-center items-center ' >
             {/*  text*/}
         <motion.div
         variants={fadeIn('right', 0.5)} 
@@ -46,15 +46,17 @@ const Tech = () => {
 
           </div>
          
+         <div className='flex-1 '>
          <motion.div 
          variants={fadeIn('left', 0.5)} 
          initial='hidden' 
          whileInView={'show'} 
          viewport={{once: false, amount: 0.3 }} 
 
-         className='flex-1'>
+         className=''>
           
-            <div className=' group  relative overflow-hidden border-2 border-[#D9D9D9] rounded-xl mb-6 text-[#D9D9D9]'>
+          
+            <div className=' group  relative overflow-hidden border-2 border-[#D9D9D9] rounded-xl mb-6 text-[#D9D9D9] '>
               {/* overlay */}
               <div className='group-hover:bg-[#FDCA00] w-full h-full absolute z-40 transition-all duration-300'></div>
               {/*img */}
@@ -257,7 +259,7 @@ const Tech = () => {
             </div>
 
          </motion.div>
-
+</div>
 
         </div>
       </div>

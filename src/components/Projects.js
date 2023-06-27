@@ -16,8 +16,8 @@ const Projects = () => {
     return (
     <section className='section' id='projects'>
 <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row gap-x-10 text-left'>
-           <div className='flex-1 flex flex-col gap-y-14 mb-4 md:mb-10 transform translate-y-[15px] lg:translate-y-7 md:-translate-y-6'>
+        <div className='flex flex-col lg:flex-row gap-x-10 text-left mb-28 transform  lg:translate-y-[20px]'>
+           <div className='flex-1 flex flex-col md:gap-y-14 mb-4 md:mb-10 transform translate-y-[-25px] lg:translate-y-7 md:-translate-y-6 '>
               <motion.div 
               variants={fadeIn('right', 0.5)} 
               initial='hidden' 
@@ -48,7 +48,7 @@ const Projects = () => {
               initial='hidden' 
               whileInView={'show'} 
               viewport={{once: false, amount: 0.3 }} 
-              className='group relative overflow-hidden border-2 border-white rounded-xl mb-10 '>
+              className='group relative overflow-hidden border-2 border-white rounded-xl md:mb-10 md:mt-0 mt-10 -mb-6'>
                 {/* overlay */}
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 {/* img */}
@@ -69,10 +69,10 @@ const Projects = () => {
            initial='hidden' 
            whileInView={'show'} 
            viewport={{once: false, amount: 0.3 }} 
-           className='flex-1 flex flex-col gap-y-10'>
+           className='flex-1 flex flex-col gap-y-10 mt-6 md:mt-0'>
 
              {/* image */}
-             <div className='group relative overflow-hidden border-2 border-white rounded-xl'>
+             <div className='group relative overflow-hidden border-2 border-white rounded-xl lg:mt-0 md:-mt-16 '>
                 {/* overlay */}
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 {/* img */}

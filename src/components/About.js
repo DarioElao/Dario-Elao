@@ -45,7 +45,7 @@ const About = () => {
 
           <p className='mb-4'>Previously, I've worked in different fields like serving, construction, medical receptionist, and IT help desk. But I've always been drawn to the world of technology.<br/></p>
 
-          <p className='mb-4'>As a developer, I'm excited to continue building projects and contributing to the tech community. Whether it's designing user interfaces or solving complex problems, I love learning and pushing myself to new heights.<br/></p>
+          <p className=''>As a developer, I'm excited to continue building projects and contributing to the tech community. Whether it's designing user interfaces or solving complex problems, I love learning and pushing myself to new heights.</p>
           </div>
           
           </div>
